@@ -151,7 +151,6 @@ body {
     align-items: center;
     font-weight: bolder;
 }
-
 /* media query for smartphones */
 @media screen and (max-width:620px) and (min-width:300px){
     .data24cont, .datacont,.datacard,.data{

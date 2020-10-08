@@ -23,7 +23,7 @@ tog.onclick = () => {
     </div>`;
             datacont.innerHTML = `
             <div class="datacard">
-        <h2>-- Corona in India --</h2>
+        <h2>-- COVID19 in India --</h2>
         <div class="data">
         <p>Total Cases: ${result.totalCases}</p>
         <p>Total Active Cases: ${result.activeCases}</p>
@@ -35,7 +35,7 @@ tog.onclick = () => {
 
                 var cases = element.totalInfected;
                 var popup = new mapboxgl.Popup({ offset: 25 })
-                    .setHTML(`<div class="popup"><h3>Corona in ${element.region}</h3>
+                    .setHTML(`<div class="popup"><h3>COVID19 in ${element.region}</h3>
                         <div class="popupdata">
                     <p>Total Infected: ${element.totalInfected} </p>
                     <p>Total Recovered: ${element.recovered}</p>
@@ -122,7 +122,7 @@ tog.onclick = () => {
     </div>`;
             datacont.innerHTML = `
             <div class="datacard">
-        <h2>-- Corona in India --</h2>
+        <h2>-- COVID19 in India --</h2>
         <div class="data">
         <p>Total Cases: ${result.totalCases}</p>
         <p>Total Active Cases: ${result.activeCases}</p>
@@ -134,7 +134,7 @@ tog.onclick = () => {
 
                 var cases = element.totalInfected;
                 var popup = new mapboxgl.Popup({ offset: 25 })
-                    .setHTML(`<div class="popup"><h3>Corona in ${element.region}</h3>
+                    .setHTML(`<div class="popup"><h3>COVID19 in ${element.region}</h3>
                         <div class="popupdata">
                     <p>Total Infected: ${element.totalInfected} </p>
                     <p>Total Recovered: ${element.recovered}</p>
@@ -224,7 +224,7 @@ fetch("https://api.apify.com/v2/key-value-stores/toDWvRj1JpTXiM8FF/records/LATES
 </div>`;
     datacont.innerHTML = `
     <div class="datacard">
-<h2>-- Corona in India --</h2>
+<h2>-- COVID19 in India --</h2>
 <div class="data">
 <p>Total Cases: ${result.totalCases}</p>
 <p>Total Active Cases: ${result.activeCases}</p>
@@ -236,7 +236,7 @@ fetch("https://api.apify.com/v2/key-value-stores/toDWvRj1JpTXiM8FF/records/LATES
 
         var cases = element.totalInfected;
         var popup = new mapboxgl.Popup({ offset: 25 })
-            .setHTML(`<div class="popup"><h3>Corona in ${element.region}</h3>
+            .setHTML(`<div class="popup"><h3>COVID19 in ${element.region}</h3>
                 <div class="popupdata">
             <p>Total Infected: ${element.totalInfected} </p>
             <p>Total Recovered: ${element.recovered}</p>
